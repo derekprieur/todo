@@ -1,4 +1,4 @@
-# Task Master
+# Quick Task
 
 Simple Todo application with React, Tailwind CSS & Firebase
 
