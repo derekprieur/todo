@@ -59,7 +59,7 @@ const App = () => {
             <Todo key={index} todo={todo} toggleComplete={toggleComplete} deleteTodo={deleteTodo} />
           ))}
         </ul>
-        {todos.length > 0 && <p className='text-center p-2'>You have {todos.length} todos</p>}
+        {todos.length > 0 && <p className='text-center p-2'>You have {todos.length} task{todos.length !== 1 && 's'} </p>}
       </div>
     </div>
   )
