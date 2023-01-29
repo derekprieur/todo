@@ -49,7 +49,7 @@ const App = () => {
     <div className='h-screen w-screen p-4 bg-gradient-to-b from-[#2F80ED] to-[#1CB5E0]'>
       <ToastContainer position='top-center' />
       <div className='bg-slate-100 max-w-lg w-full m-auto rounded-md shadow-xl p-4 mt-16'>
-        <h3 className='text-3xl font-bold text-center text-gray-800 p-2'>Task Master</h3>
+        <h3 className='text-3xl font-bold text-center text-gray-800 p-2'>Quick Task</h3>
         <form className='flex justify-between' onSubmit={createTodo}>
           <input type="text" placeholder='Add Task' className='border p-2 w-full text-xl' value={input} onChange={(e) => setInput(e.target.value)} />
           <button className='border p-4 ml-2 bg-purple-500 text-slate-100'><AiOutlinePlus size={30} /></button>
